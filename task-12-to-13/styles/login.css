@@ -1,0 +1,149 @@
+:root {
+    --rose: #f07;
+}
+
+body {
+    
+    background-color: rgb(245, 242, 241);
+}
+
+.section {
+    position: relative;
+}
+
+
+.box {
+    height: 35vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.top-box {
+    background-color: var(--rose);
+    width: 450px;
+    right: 0;
+    top: 0;
+    
+}
+
+.bottom-box {
+    background-color: rgb(152, 183, 240);
+    width: calc(100vw - 450px);
+    bottom: 0;
+    left: 0;
+}
+
+.absolute-main {
+    position: absolute;
+    width: 70%;
+    height: 80vh;
+    top: 10vh;
+    left: 15%;
+    box-shadow: 1;
+    overflow: hidden;
+}
+
+.main-div {
+    height: 100%;
+    background-color: aqua;
+    z-index: 1;
+    position: relative;
+}
+
+.img,.login {
+    position: absolute;
+}
+
+.img {
+    height: 100%;
+    width: 40%;
+    background: gray;
+}
+
+.img>img {
+    width : auto;
+    height: 100%;
+}
+
+
+
+.login {
+    background: green;
+    height: 100%;
+    width: 60%;
+    left: 436px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+form {
+    height: 100%;
+    background: white;
+    font-size: smaller;
+}
+
+fieldset {
+    border: none;
+}
+
+h1, label, input:not(#remember) {
+    margin-left: 68px;
+    border-radius: 20px;
+    width: 60%;
+    padding: 2%;
+}
+
+input:not(#remember) {
+    margin-left: 75px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: var(--rose);
+    color:rgb(87, 87, 87);
+    margin: 50px auto 0 65px;
+}
+
+input[required] {
+    border: 2px solid rgb(188, 188, 188);
+}
+
+input:focus {
+    outline: none;
+}
+
+.sign-up{
+    margin-left: 100px;
+}
+
+.submit-button  {
+    margin-left: 12px;
+}
+
+.submit-button>input:not(#remember) {
+    background-color: var(--rose);
+    color: white;
+    border: none;
+    width: 63%;
+}
+
+a {
+    color: var(--rose);
+}
+
+.social{
+    margin-left: 200px;
+}
+
+.block {
+    display: block;
+}
+
+.social-div >a> img {
+    width: 30px;
+    padding: 0 1.25% 4%;
+}
+
+.social-div {
+    margin-left: 210px;
+}

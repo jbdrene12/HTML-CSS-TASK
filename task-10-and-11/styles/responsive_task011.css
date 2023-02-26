@@ -1,0 +1,168 @@
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.menu {
+  background-color: rgb(42, 42, 42);
+  
+  border: 2px solid black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 15px 0 0 25px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.side-bar {
+  float: right; 
+  margin: 2% 2% 2% 0;
+  background-color: rgb(42, 42, 42);
+  color: white;
+  min-height: 100vh;
+  width: 23%;
+  text-align: justify;
+  border: 2px solid black;
+  font-size: small;
+}
+
+.question {
+  margin: 20px 15px;
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 10px;
+  flex-direction: column;
+  display: inline-flex;
+  width: calc(75% - 14px);
+}
+
+.container {
+  float: left;
+  gap: 7.5%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  max-width: 25%;
+  flex-direction: column;
+  border: 2px solid black;
+  
+}
+
+.box-head {
+  font-weight: bolder;
+  padding:10px 0 10px 10px;
+  border-bottom: 2px solid black;
+  background: rgb(42, 42, 42);
+  color: white;
+}
+
+.box-body {
+  padding: 7.5%;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  
+  .main-div {
+    position: relative;
+  }
+
+  .side-bar {
+    position: absolute;
+    min-height: auto;
+    height: 100px;
+    width: calc(95% - 4px);
+    font-size: x-large;
+    margin-left: 2.5%;
+  }
+
+  .question {
+    margin: 15px;
+  }
+
+  .content {
+    width: auto;
+    position: absolute;
+    right: 0%;
+    top: 120px;
+  }
+
+  .container {
+    margin-left: 80px
+  }
+  
+  .box {
+    max-width: 40%;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+
+  .box:last-child {
+    float: left;
+  }
+
+  .box-body {
+    padding: 10%;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .side-bar {
+    font-size: x-large;
+    width: calc(95% - 4px);
+    min-height: auto;
+    height: 100px;
+  }
+
+  .content {
+    right: 0%;
+    top: 220px;
+    width: auto;
+  }
+
+  .question {
+    margin: 15px;
+  }
+
+
+  .container {
+    display: block;
+    margin-left: 10%;
+  }
+
+  .box {
+    min-width: 90%;
+    margin-top: 20px;
+  }
+
+
+}

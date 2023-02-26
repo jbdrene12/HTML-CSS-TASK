@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-1</title>
+    <link rel="stylesheet" href="./styles/Form1.css" />
+</head>
+
+<body>
+    <h1>PRODUCT ORDER FORM</h1>
+    <header id="main">
+        <form action="#">
+            <fieldset>
+                <label for="firstname">
+                    <div class="name-col">FIRST NAME</div>
+                    <div class="colon-fname">:</div>
+                    <div class="input-field"><input class="top" type="text" id="firstname" placeholder=" Your First Name"
+                            required /></div>
+                </label>
+                <label class="float-left" for="lastname">
+                    <div class="name-col">LAST NAME</div>
+                    <div class="colon-lname">:</div>
+                    <div class="input-field abs"><input class="top" type="text" id="lastname" placeholder=" Your Last Name"
+                            required /></div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="email">
+                    <div class="name-col">E-MAIL ADDRESS</div>
+                    <div class="colon-email">:</div>
+                    <div class="input-field"><input type="email" id="email" placeholder=" someone@email.com" required />
+                    </div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="code">
+                    <div class="name-col">PHONE NUMBER</div>
+                    <div class="colon-phone">:</div><span id="plus">+</span>
+                    <div class="input-field"><input type="tel" id="code" placeholder=" ??" maxlength="3" pattern="[0-9]{2}" required />
+                            <div class="input-field phone"><input type="tel" id="phone" placeholder=" ??????????" maxlength="10"
+                            pattern="[0-9]{10}" required /></div>
+                    </div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="billingAdd">
+                    <div class="name-col">BILLING ADDRESS</div>
+                    <div class="colon-b-addr">:</div>
+                    <div class="input-field"><input id="billingAdd" placeholder=" 123, some st., &#10; some place, ..."
+                            required /></div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="Add">
+                    <div class="name-col">YOUR ADDRESS</div>
+                    <div class="colon-addr">:</div>
+                    <div class="input-field"><input id="Add" placeholder=" 1XX, some st., &#10; some place, ..."
+                            required /></div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="city">
+                    <div class="name-col">YOUR CITY</div>
+                    <div class="colon-city">:</div>
+                    <div class="input-field"><input type="text" id="city" placeholder=" Your City" required /></div>
+                </label>
+                <label class="float-left" for="state">
+                        <div class="name-col">YOUR STATE/PROVINCE</div>
+                        <div class="colon-state">:</div>
+                        <div class="input-field abs"><input type="text" id="state" placeholder=" Your State/Province"
+                                required /></div>
+                    </label>
+            </fieldset>
+            <fieldset>
+                <label for="pin">
+                    <div class="name-col">ZIP CODE</div>
+                    <div class="colon-zip">:</div>
+                    <div class="input-field"><input type="tel" id="pin" placeholder=" 000000" pattern="[0-9]{6}" required /></div>
+                </label>
+                <label class="float-left" for="country">
+                        <div class="name-col">COUNTRY</div>
+                        <div class="colon-country">:</div>
+                        <div class="input-field abs"><input type="text" id="country" placeholder=" Country" required /></div>
+                    </label>
+            </fieldset>
+            <fieldset class="submit"><input type="submit" value="PLACE ORDER" /><input type="reset" value="RESET">
+
+        </form>
+    </header>
+    <footer class="footer">
+        <p>
+            &#169; 2017 Product Order Form. All Rights Reserved | Designed by
+            <a id="orange" target="_blank" href="https://github.com/jbdrene12/HTML-CSS-TASK002"><b>Daniel</b></a>
+        </p>
+    </footer>
+</body>
+
+</html>

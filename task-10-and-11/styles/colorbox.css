@@ -1,0 +1,97 @@
+#mainDiv {
+  background-color: #fff;
+  margin: auto;
+}
+
+.item {
+  flex: 1;
+  height: 120px;
+}
+
+.four-blocks {
+  height: 60px;
+}
+
+.single-block,
+.four-blocks {
+  margin: 10px;
+}
+
+.table-div {
+  margin: 30px 20px -20px 20px;
+  display: flex;
+}
+
+.t4div {
+  display: flex;
+  min-width: 50%;
+}
+
+.top {
+  padding-top: 10px;
+}
+
+.bottom {
+  padding-bottom: 10px;
+}
+
+/* #xn => nᵗʰ BOX */
+
+#x1 {
+  max-width: 30%;
+  background-color: #e92323;
+}
+
+#x2 {
+  background-color: #2b5394;
+}
+
+#x3 {
+  height: 220px;
+  background-color: #a70;
+}
+
+#x4 {
+  background-color: #0c2;
+}
+
+#x5 {
+  background-color: #a07;
+}
+
+#x6 {
+  background-color: #70f;
+}
+
+#x7 {
+  background-color: #e52;
+}
+
+#x8 {
+  background-color: #cc0;
+}
+
+#x9 {
+  background-color: #070;
+  min-width: 25%;
+}
+
+#x10 {
+  background-color: #37f;
+  min-width: 25%;
+}
+
+#x11 {
+  background-color: #700;
+  min-width: 25%;
+}
+
+#x12 {
+  background-color: #00f;
+  min-width: 25%;
+}
+
+#x14 {
+  height: 25px;
+  background-color: #300;
+}

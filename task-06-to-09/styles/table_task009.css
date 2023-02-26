@@ -1,0 +1,33 @@
+table,
+      th,
+      td {
+        border: 1px solid black;
+        text-align: center;
+        margin-top: 200px;
+        margin-left: 400px;
+        
+      }
+
+table {
+    
+    box-shadow: 5px 5px 5px #999; 
+}
+
+hr {
+    
+    width: 99%;
+    text-align: left;
+    padding: 0.5%;
+}
+
+.G {
+    background-color: rgb(241, 241, 165);
+}
+
+.G2 {
+    background-color: rgb(0, 255, 170);
+}
+
+.G5 {
+    background-color: rgb(166, 166, 255);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-2</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/calendar-today.css">
+    <link rel="stylesheet" href="./styles/Form2.css">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="side-bar">
+            <div class="prfile">
+                <a target="_blank" href="./assets/pic/Cat.jpg"><img src="./assets/pic/Cat.jpg" alt="profile pic"></a> 
+                
+            </div>
+            <div class="prfl">
+                <p class="p-name">Do-it</p>
+                <p class="p-name bottom">Daniel</p>
+            </div>
+            <div><hr></div>
+            <div class="lists">
+                <ul>
+                    <li class="outer-list"><i class="gg-calendar-today"></i> Today tasks</li>
+                        <ul>
+                            <li class="inner-list"><div class="pink"></div><div>Perssonal</div></li>
+                            <li class="inner-list"><div class="blue"></div><div>Freelance</div></li>
+                            <li class="inner-list"><div class="yellow"></div><div>Work</div></li>
+                            <li class="inner-list"><div class="pink"></div><div>Add Filter</div></li>
+                        </ul>
+                    <li class="outer-list"><i class="gg-alarm"></i> Scheduled tasks</li>
+                    <li class="outer-list"><i class="material-icons"> settings</i>Settings</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-div">
+            <div class="header">
+                <h1>Today main focus<span>Design team meeting</span></h1>
+            </div>
+            <div class="content">
+                <form>
+                    <fieldset>
+                        <div class="pink"></div><div class="blue"></div><div class="yellow"></div><input type="search" id="search" placeholder="What is your next task?" /><i class="gg-alarm"></i><i class="gg-calendar"></i>
+                    </fieldset>
+                    <fieldset class="hidden"></fieldset>
+                    <fieldset>
+                        <div class="pink"></div><label for="first-box">Work out <span class="space">8:00 a.m.<div class="circle"><input id="first-box" name="to-do" type="checkbox" checked /></div></span></label>
+                    </fieldset>
+                    <fieldset>
+                        <div class="yellow"></div><label for="second-box">Design team meeting <span class="space">2:30 p.m.<div class="circle"><input type="checkbox" name="to-do" id="second-box"></div></span></label>
+                    </fieldset>
+                    <fieldset>
+                        <div class="blue"></div><label for="third-box">Hand off the project <span class="space">7:00 p.m.<div class="circle"><input type="checkbox" name="to-do" id="third-box"></div></span></label>
+                    </fieldset>
+                    <fieldset>
+                        <div class="pink"></div><label for="fourth-box">Read 5 pages of "sprint" <span class="space">10:30 p.m.<div class="circle"><input type="checkbox" name="to-do" id="fourth-box"></div></span></label>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+

@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+ 
+  .item {
+    flex: 0;
+    height: 80px;
+    width: 95%;
+  } 
+
+  .four-blocks {
+    height: 40px;
+  }
+
+  .single-block,
+  .four-blocks {
+    margin: 10px;
+  }
+
+  .table-div {
+    margin: 30px 20px -20px 20px;
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .top {
+    padding-top: 10px;
+  }
+
+  .bottom {
+    padding-bottom: 10px;
+  }
+
+  #x1 {
+    flex: 1;
+  }
+
+  #x2 {
+    flex: 1;
+    max-width: 62.5%;
+  }
+
+  #x3 {
+    height: 146px;
+  }
+
+  #x5,
+  #x6,
+  #x8 {
+    margin-top: 20px;
+  }
+
+  #x9,
+  #x10,
+  #x11,
+  #x12 {
+    margin-top: 10px;
+    min-width: 46.25%
+  }
+
+  #x4, #x7 {
+    margin-top: 40px;
+  }
+
+
+
+  #x14 {
+    height: 17px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #mainDiv {
+    display: block;
+  }
+
+  .item {
+    height: 60px;
+  }
+
+  .four-blocks {
+    height: 30px;
+  }
+
+  .single-block,
+  .four-blocks {
+    margin: 10px;
+  }
+
+  .table-div {
+    display: block;
+    margin: 30px 20px -20px 20px;
+  }
+
+  .top {
+    padding-top: 10px;
+  }
+
+  .bottom {
+    padding-bottom: 10px;
+  }
+
+  .t4div {
+    display: block;
+  }
+
+  #x1 {
+    max-width: 100%;
+  }
+
+  #x3 {
+    height: 117px;
+  }
+
+  #x14 {
+    height: 13px;
+  }
+}
